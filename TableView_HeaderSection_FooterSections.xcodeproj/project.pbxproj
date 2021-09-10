@@ -13,6 +13,8 @@
 		89D1657426EB71510038DC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D1657226EB71510038DC5B /* Main.storyboard */; };
 		89D1657626EB71560038DC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D1657526EB71560038DC5B /* Assets.xcassets */; };
 		89D1657926EB71560038DC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D1657726EB71560038DC5B /* LaunchScreen.storyboard */; };
+		89D1658326EB741B0038DC5B /* vegitables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1658226EB741B0038DC5B /* vegitables.swift */; };
+		89D1658526EB77A20038DC5B /* fruitVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1658426EB77A20038DC5B /* fruitVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		89D1657526EB71560038DC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D1657826EB71560038DC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D1657A26EB71560038DC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D1658226EB741B0038DC5B /* vegitables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegitables.swift; sourceTree = "<group>"; };
+		89D1658426EB77A20038DC5B /* fruitVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fruitVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				89D1656C26EB71510038DC5B /* AppDelegate.swift */,
 				89D1656E26EB71510038DC5B /* SceneDelegate.swift */,
 				89D1657026EB71510038DC5B /* ViewController.swift */,
+				89D1658426EB77A20038DC5B /* fruitVc.swift */,
 				89D1657226EB71510038DC5B /* Main.storyboard */,
+				89D1658226EB741B0038DC5B /* vegitables.swift */,
 				89D1657526EB71560038DC5B /* Assets.xcassets */,
 				89D1657726EB71560038DC5B /* LaunchScreen.storyboard */,
 				89D1657A26EB71560038DC5B /* Info.plist */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D1658526EB77A20038DC5B /* fruitVc.swift in Sources */,
+				89D1658326EB741B0038DC5B /* vegitables.swift in Sources */,
 				89D1657126EB71510038DC5B /* ViewController.swift in Sources */,
 				89D1656D26EB71510038DC5B /* AppDelegate.swift in Sources */,
 				89D1656F26EB71510038DC5B /* SceneDelegate.swift in Sources */,

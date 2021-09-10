@@ -8,12 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
     }
 
+    @IBAction func veg(_ sender:UIButton)
+    {
+     
+        let vc = vegitables()
+        vc.title = "Vegitables"
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
 
+    @IBAction func fruit (_ sender:UIButton)
+    {
+        let vc = fruitVC()
+        vc.title = "Fruits"
+           self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
 }
+
 
